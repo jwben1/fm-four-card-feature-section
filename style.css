@@ -12,7 +12,9 @@
     
     --ff-poppins:'Poppins', sans-serif;
 
-    --fs-body: 15px;
+    --fs-b: 0.938rem;
+    --fs-h: 1.125rem;
+    --fs-p: 0.813rem;
 
     --fw-light: 200;
     --fw-regular: 400;
@@ -61,7 +63,7 @@
     overflow-wrap: break-word;
   }
   /*
-    8. Screen reader
+    8. For Screen readers
   */
   .sr-only {
     position: absolute;
@@ -75,7 +77,82 @@
     border-width: 0;
   }
 
+  body {
+    font-family: var(--ff-poppins);
+    font-size: var(--fs-b);
+    font-weight: var(--fw-light);
+    background-color: var(--clr-very-light-gray);
+    color: var(--clr-grayish-blue);
+    /* min-height: 100vh;
+    display: flex;
+    justify-content: center; */
+  }
+
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 3em 0;
+  }
+
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  header {
+    text-align: center;
+    margin-bottom: 4em;
+    max-width: 20rem;
+  }
+
+  .card__title {
+    font-weight: var(--fw-light);
+    color: var(--clr-very-dark-blue);
+    margin-bottom: .5em;
+  }
+
+  .card__title-accent {
+    font-weight: var(--fw-bold);
+  }
+
+  header p {
+    font-weight: var(--fw-regular);
+  }
+
+  .grid-container {
+    display: grid;
+    gap: 1.5rem;
+  }
   
+  .element {
+    border: 1px solid crimson;
+    max-width: 18.75rem;
+    background-color: white;
+    padding: 1.5em;
+    font-size: var(--fs-p);
+  }
+
+  .element h3 {
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-h);
+    color: var(--clr-very-dark-blue);
+    margin-bottom: .3em;
+  }
+
+  .card__icon {
+    display: flex;
+    justify-content: end;
+    height: 3.438rem;
+    margin-top: 2em;
+  }
+
+  @media (min-width: 675px) {
+    .grid-container {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
 
 /* .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); } */
