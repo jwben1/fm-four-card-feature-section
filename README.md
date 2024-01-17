@@ -22,7 +22,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![image](https://github.com/jwben1/fm-four-card-feature-section/assets/132217074/2d45f2f0-6a31-424e-8414-0b08ffa3187b)
+
+![image](https://github.com/jwben1/fm-four-card-feature-section/assets/132217074/1b001be3-56fe-4883-a871-6570fae9b174)
+
+
 
 ### Links
 
