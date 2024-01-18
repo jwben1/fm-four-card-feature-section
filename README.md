@@ -44,6 +44,7 @@ Users should be able to:
 ### What I learned
 - Header tag is for repeating content across a site, not page specific content.
 - It's better for performance to link fonts in the HTML head
+- Em should be used when you specifically want a property to scale with that element's font size.
 - Reinforced my understanding of grid and how I can achieve complex designs with grid rows and columns
 
 ### Continued development
