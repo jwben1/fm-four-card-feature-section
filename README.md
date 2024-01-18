@@ -42,8 +42,9 @@ Users should be able to:
 - Mobile-first workflow
 
 ### What I learned
-
-Reinforced my understanding of grid and how I can achieve complex designs with grid rows and columns
+- Header tag is for repeating content across a site, not page specific content.
+- It's better for performance to link fonts in the HTML head
+- Reinforced my understanding of grid and how I can achieve complex designs with grid rows and columns
 
 ### Continued development
 
