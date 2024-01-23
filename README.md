@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here]()
-- Live Site URL: [Add live site URL here](https://jwben1.github.io/fm-four-card-feature-section/)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-section-using-css-grid-lXngHkbiLr]
+- Live Site URL: [https://jwben1.github.io/fm-four-card-feature-section/]
 
 ### Built with
 
