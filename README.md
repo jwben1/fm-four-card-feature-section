@@ -57,4 +57,4 @@ I want to learn more about grid (ex:grid-template-areas)
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/jwben1)
+- Frontend Mentor - [jwben1](https://www.frontendmentor.io/profile/jwben1)
